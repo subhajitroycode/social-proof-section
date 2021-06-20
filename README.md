@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![]()
+![](https://github.com/subhajitroycode/social-proof-section/blob/master/images/Screenshot%202021-06-20%20200844.jpg)
 
 ### Links
 
