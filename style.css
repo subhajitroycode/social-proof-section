@@ -15,12 +15,14 @@ body {
     calc(50vw - 320px) calc(50vh - 280px);
   font-family: "Spartan", sans-serif;
 }
-/*
+
+.container {
+  width: 78%;
+  margin: 118px auto 75px;
+}
+
 header {
-  width: 35%;
-  margin-top: 120px;
-  margin-left: 160px;
-  margin-bottom: 60px;
+  width: 45%;
 }
 
 header h1 {
@@ -39,15 +41,14 @@ header p {
 }
 
 .ratings {
-  width: 50%;
+  width: 60%;
   float: right;
-  margin-top: -300px;
-  margin-right: 140px;
+  margin-top: -240px;
 }
 
 .ratings ul {
   list-style: none;
-  width: 65%;
+  width: 68%;
   float: right;
 }
 
@@ -78,30 +79,29 @@ header p {
 .review-section {
   display: flex;
   justify-content: space-between;
-  margin-left: 160px;
-  margin-right: 140px;
-  margin-bottom: 68px;
+  margin-top: 60px;
 }
 
 .reviews {
   background-color: hsl(300, 43%, 22%);
   width: 32%;
+  /*height: 31vh;*/
   color: hsl(0, 0%, 100%);
   border-radius: 10px;
 }
 
 .profile-images {
-  width: 45px;
-  height: 45px;
+  width: 42px;
+  height: 42px;
   border-radius: 50%;
-  margin-top: 40px;
+  margin-top: 35px;
   margin-left: 30px;
 }
 
 .heading {
-  margin-top: 40px;
-  margin-left: 30px;
-  line-height: 25px;
+  margin-top: 33px;
+  margin-left: 23px;
+  line-height: 23px;
 }
 
 .profile-header {
@@ -113,13 +113,14 @@ header p {
   display: block;
   color: hsl(333, 80%, 67%);
   font-weight: 400;
+  font-size: 14px;
 }
 
 .reviews p {
   margin-top: 25px;
-  padding: 0px 25px 40px 30px;
+  padding: 0px 40px 45px 30px;
   line-height: 25px;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 #second-review {
@@ -140,7 +141,7 @@ header p {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-
+/*
 @media (max-width: 420px) {
   body {
     background: url(./images/bg-pattern-top-mobile.svg),
